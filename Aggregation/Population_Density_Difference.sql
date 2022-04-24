@@ -1,0 +1,4 @@
+--@Author='Aditya Narayan'
+-- Population Density Difference
+    SELECT MAX(POPULATION) - MIN(POPULATION) FROM CITY;
+	--SELECT (MAX(POPULATION)-MIN(POPULATION)) AS DIFFERENCE FROM CITY;

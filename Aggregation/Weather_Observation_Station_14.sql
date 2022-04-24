@@ -1,0 +1,4 @@
+--@Author='Aditya Narayan'
+-- Weather Observation Station 14
+    SELECT FORMAT(MAX(LAT_N), '#.0000') FROM STATION WHERE LAT_N < 137.2345;
+	-- SELECT CAST(MAX(LAT_N) AS DECIMAL(9,4)) FROM STATION WHERE LAT_N < 137.2345;
