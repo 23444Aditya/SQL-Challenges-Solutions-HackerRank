@@ -1,0 +1,5 @@
+--@Author='Aditya Narayan'
+-- The Report
+	-- Example of equi join 
+    SELECT IIF(GRADE < 8, NULL, NAME), GRADE, MARKS FROM STUDENTS JOIN GRADES ON (MARKS >= MIN_MARK AND MARKS <= MAX_MARK)
+	ORDER BY GRADE DESC, NAME;

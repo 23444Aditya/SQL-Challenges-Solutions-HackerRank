@@ -1,0 +1,4 @@
+--@Author='Aditya Narayan'
+-- Average Population of Each Continent
+    SELECT CO.CONTINENT, ROUND(AVG(C.POPULATION), 0) FROM CITY C INNER JOIN COUNTRY CO ON C.COUNTRYCODE = CO.CODE
+    GROUP BY CO.CONTINENT;

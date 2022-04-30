@@ -1,0 +1,4 @@
+--@Author='Aditya Narayan'
+-- African Cities
+    SELECT C.NAME FROM CITY C INNER JOIN COUNTRY CO ON C.COUNTRYCODE = CO.CODE
+    WHERE CO.CONTINENT = 'Africa';
