@@ -16,3 +16,5 @@ These solutions helped me get 5:star2: in SQL. And Yes, i have referenced many w
 Hope you get this repository useful :bulb:
 <br>
 Thanks
+
+<a href="https://www.hackerrank.com/aditya_kt97">Click here for my HackerRank profile </a>
